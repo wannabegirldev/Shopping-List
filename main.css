@@ -1,0 +1,52 @@
+body {
+    background: #C1F0F6;
+    font-family: Raleway;
+}
+
+header {
+    font-family: Pacifico;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+#forms {
+    width: 350px;
+    margin: 0 auto;
+}
+
+#toadd {
+    float: right;
+    margin-top: -6px;
+}
+
+#item {
+    width: 300px;
+}
+
+input:focus {
+    outline: none;
+    border: solid lightgray .2em;
+    background-image: none;
+    text-indent: 0em;
+}
+
+input[placeholder] {
+    font-family: Raleway;
+}
+
+.list {
+    max-width: 600px;
+    height: 700px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+   list-style-image: url(Images/rsz_strawberry-icon.png);
+}
+
+
+
+
+
