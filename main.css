@@ -10,11 +10,16 @@ header {
 }
 
 #forms {
-    width: 350px;
+    width: 400px;
     margin: 0 auto;
 }
 
 #toadd {
+    float: right;
+    padding-right: 15px;
+}
+
+#clear {
     float: right;
 }
 

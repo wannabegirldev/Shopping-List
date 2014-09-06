@@ -27,7 +27,12 @@ $(document).ready(function () {
     $('#item').keydown(function (e) {
         if (e.which == 13) {
             addItemToList(e);
-        }
+        }    
+    });
+    
+    $('#clear').click(function (e) {
+        $(".shopping").empty();
     });
 });
+
     
