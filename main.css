@@ -16,11 +16,11 @@ header {
 
 #toadd {
     float: right;
-    margin-top: -6px;
 }
 
 #item {
     width: 300px;
+    height: 25px;
 }
 
 input:focus {
@@ -32,18 +32,34 @@ input:focus {
 
 input[placeholder] {
     font-family: Raleway;
+    font-size: 18px;
 }
 
-.list {
-    max-width: 600px;
+#list {
+    max-width: 450px;
     height: 700px;
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-left: auto;
     margin-right: auto;
 }
 
+.shopping {
+     list-style: none;
+}
+
 li {
-   list-style-image: url(Images/rsz_strawberry-icon.png);
+    font-size: 20px;
+    margin-top: .3em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.ui-button.ui-widget{
+     height: 21px;
+     width: 25px;
+     outline: none;
+    margin-right: 10px;
 }
 
 
